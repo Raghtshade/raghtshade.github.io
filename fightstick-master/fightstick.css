@@ -60,13 +60,12 @@
 
 .custom .bumper.left {
     position: absolute;
-    float: right;
     top: 25px;
     right: 0px;
 }
 
 .custom .bumper.right {
-    float: left;
+    left: 0px;
     top: 0px;
 }
 
