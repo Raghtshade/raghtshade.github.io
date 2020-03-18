@@ -125,7 +125,7 @@
     height: 150px;
     top: 0px;
     left: 0px;
-    background-image: url(assets/stick.png);
+    background: url(assets/stick.png) no-repeat;
 }
 
 .custom .fstick.up {
