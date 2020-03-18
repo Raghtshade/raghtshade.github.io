@@ -30,7 +30,7 @@
 
 .custom .trigger-button.pressed {
     animation-name: butthaha;
-    animation-duration: 0.125s;
+    animation-duration: 93ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -64,7 +64,7 @@
 
 .custom .bumper.pressed {
     animation-name: butthaha;
-    animation-duration: 0.125s;
+    animation-duration: 93ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -99,7 +99,7 @@
 
 .custom .button.pressed {
     animation-name: butthaha;
-    animation-duration: 0.125s;
+    animation-duration: 93ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
