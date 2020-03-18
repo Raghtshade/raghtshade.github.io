@@ -19,7 +19,7 @@
 .custom .trigger-button {
     width: 74px;
     height: 74px;
-    background: #4c4c4c;
+    background: #000000;
     border-radius: 100%;
     opacity: 1;
     display: block;
@@ -51,7 +51,7 @@
 .custom .bumper {
     width: 74px;
     height: 74px;
-    background: #4c4c4c;
+    background: #000000;
     border-radius: 100%;
     opacity: 1;
     display: block;
@@ -83,7 +83,7 @@
 .custom .button {
     width: 74px;
     height: 74px;
-    background: #4c4c4c;
+    background: #000000;
     border-radius: 100%;
     opacity: 1;
     display: block;
