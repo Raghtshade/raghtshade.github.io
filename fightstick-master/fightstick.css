@@ -30,7 +30,7 @@
     animation-name: butthaha;
     animation-duration: 0.25s;
   animation-iteration-count: 1;
-    background: url(assets/button1.png);
+  animation-fill-mode: forwards;
 }
 
 .custom .trigger-button.left {
@@ -63,7 +63,7 @@
     animation-name: butthaha;
     animation-duration: 0.25s;
   animation-iteration-count: 1;
-    background: url(assets/button1.png);
+  animation-fill-mode: forwards;
 }
 
 .custom .bumper.left {
@@ -97,7 +97,7 @@
     animation-name: butthaha;
     animation-duration: 0.25s;
   animation-iteration-count: 1;
-    background: url(assets/button1.png);
+  animation-fill-mode: forwards;
 }
 
 .custom .a {
