@@ -124,8 +124,7 @@
     height: 150px;
     top: 0px;
     left: 0px;
-    background: #4c4c4c;
-    border-radius: 37px;
+    background: url(assets/stick.png);
 }
 
 .custom .fstick.up {
