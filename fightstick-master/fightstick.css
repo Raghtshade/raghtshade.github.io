@@ -95,7 +95,6 @@
 }
 
 .custom .button.pressed {
-    transform: translateY(5px);
     -webkit-filter: invert(1);
 }
 
@@ -125,23 +124,28 @@
     height: 150px;
     top: 0px;
     left: 0px;
-    background: url(assets/stick.png) no-repeat;
+    background: #4c4c4c;
+    border-radius: 37px;
 }
 
 .custom .fstick.up {
-    background-position-x: +150px;
+top: 0px;
+    left: 37px;
 }
 
 .custom .fstick.down {
-    background-position-x: +300px;
+    bottom:0px;
+    left: 37px;
 }
 
 .custom .fstick.left {
-    background-position-x: +450px;
+    bottom:37px;
+    left: 0px;
 }
 
 .custom .fstick.right {
-    background-position-x: +600px;
+    bottom:37px;
+    right: 0px;
 }
 
 .custom .fstick.up.right {
