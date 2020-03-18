@@ -1,0 +1,167 @@
+/*BEGIN Fight Stick Controller Styling*/
+.controller.custom {
+    background-image: url(assets/base.png) center no-repeat;
+    height: 150px;
+    width: 450px;
+}
+
+.custom.disconnected { /* This class shows an image when the controller is disconnected */
+    background: url(assets/base.png);
+}
+/* This hides the controller's button when disconnected so only the background image remains */ 
+.custom.disconnected div {
+    display: none;
+}
+.custom .triggers {
+    width: 149px;
+    height: 74px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.custom .trigger-button {
+    width: 74px;
+    height: 74px;
+    background: #4c4c4c;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+}
+
+.custom .trigger-button.pressed {
+    -webkit-filter: invert(1);
+}
+
+.custom .trigger-button.left {
+    position: absolute;
+    float: right;
+    bottom: 0px;
+    right: 0px;
+}
+
+.custom .trigger-button.right {
+    float: left;
+}
+
+.custom .bumpers {
+    width: 149px;
+    height: 74px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.custom .bumper {
+    width: 74px;
+    height: 74px;
+    background: #4c4c4c;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+}
+
+.custom .bumper.pressed {
+    -webkit-filter: invert(1);
+}
+
+.custom .bumper.left {
+    position: absolute;
+    float: right;
+    bottom: 0px;
+    right: 0px;
+}
+
+.custom .bumper.right {
+    float: left;
+}
+
+.custom .abxy {
+    position: absolute;
+    width: 149px;
+    height: 150px;
+    bottom: 0px;
+    left: 151px;
+}
+
+.custom .button {
+    width: 74px;
+    height: 74px;
+    background: #4c4c4c;
+    border-radius: 100%;
+    opacity: 1;
+    display: block;
+    position: absolute;
+}
+
+.custom .button.pressed {
+    transform: translateY(5px);
+    -webkit-filter: invert(1);
+}
+
+.custom .a {
+    bottom: 0px;
+    left: 0px;
+}
+
+.custom .b {
+    bottom: 0px;
+    right: 0px;
+}
+
+.custom .x {
+    top: 0px;
+    left: 0px
+}
+
+.custom .y {
+    right: 0px;
+    top: 0px;
+}
+
+.custom .fstick {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 0px;
+    left: 0px;
+    background-image: url(assets/stick.png);
+}
+
+.custom .fstick.up {
+    background-position-y: -50px;
+}
+
+.custom .fstick.down {
+    background-position-y: +50px;
+}
+
+.custom .fstick.left {
+    background-position-x: +50px;
+}
+
+.custom .fstick.right {
+    background-position-x: -50px;
+}
+
+.custom .fstick.up.right {
+    background-position-x: -50px;
+    background-position-y: -50px;
+}
+
+.custom .fstick.up.left {
+    background-position-x: +50px;
+    background-position-y: -50px;
+}
+
+.custom .fstick.down.right {
+    background-position-x: -50px;
+    background-position-y: +50px;
+}
+
+.custom .fstick.down.left {
+    background-position-x: +50px;
+    background-position-y: +50px;
+}
+
+/*END Fight Stick Controller Styling*/
