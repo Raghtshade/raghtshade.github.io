@@ -1,16 +1,12 @@
 /*BEGIN Fight Stick Controller Styling*/
 .controller.custom {
-    background-image: url(assets/base.png) center no-repeat;
     height: 150px;
     width: 450px;
 }
 
-.custom.disconnected { /* This class shows an image when the controller is disconnected */
-    background: url(assets/base.png);
+.custom.disconnected { 
 }
-/* This hides the controller's button when disconnected so only the background image remains */ 
 .custom.disconnected div {
-    display: none;
 }
 .custom .triggers {
     width: 149px;
