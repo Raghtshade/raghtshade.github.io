@@ -24,6 +24,8 @@
 
 .custom .trigger-button.pressed {
     background-position-x: -75px;
+    animation-delay: .25s;
+    background-position-x: -125px;
 }
 
 .custom .trigger-button.left {
@@ -53,6 +55,8 @@
 
 .custom .bumper.pressed {
     background-position-x: -75px;
+    animation-delay: .25s;
+    background-position-x: -125px;
 }
 
 .custom .bumper.left {
@@ -83,6 +87,8 @@
 
 .custom .button.pressed {
     background-position-x: -75px;
+    animation-delay: .25s;
+    background-position-x: -125px;
 }
 
 .custom .a {
