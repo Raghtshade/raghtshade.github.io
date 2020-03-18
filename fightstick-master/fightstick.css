@@ -24,6 +24,7 @@
 .custom .trigger-button {
     width: 75px;
     height: 75px;
+    border-radius: 100%;
     background: url(assets/button1.png);
 }
 
@@ -57,6 +58,7 @@
 .custom .bumper {
     width: 75px;
     height: 75px;
+    border-radius: 100%;
     background: url(assets/button1.png);
 }
 
@@ -90,6 +92,7 @@
 .custom .button {
     width: 75px;
     height: 75px;
+    border-radius: 100%;
     background: url(assets/button1.png);
     position: absolute;
 }
