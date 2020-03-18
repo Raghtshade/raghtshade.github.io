@@ -9,7 +9,7 @@
 .custom.disconnected div {
 }
 .custom .triggers {
-    width: 149px;
+    width: 148px;
     height: 74px;
     position: absolute;
     right: 0px;
@@ -41,7 +41,7 @@
 }
 
 .custom .bumpers {
-    width: 149px;
+    width: 148px;
     height: 74px;
     position: absolute;
     right: 0px;
@@ -74,10 +74,10 @@
 
 .custom .abxy {
     position: absolute;
-    width: 149px;
-    height: 150px;
+    width: 148px;
+    height: 148px;
     bottom: 0px;
-    left: 151px;
+    right: 296;
 }
 
 .custom .button {
