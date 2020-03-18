@@ -19,10 +19,7 @@
 .custom .trigger-button {
     width: 74px;
     height: 74px;
-    background: #000000;
-    border-radius: 100%;
-    opacity: 1;
-    display: block;
+    background: url(assets/button.png);
 }
 
 .custom .trigger-button.pressed {
@@ -51,10 +48,7 @@
 .custom .bumper {
     width: 74px;
     height: 74px;
-    background: #000000;
-    border-radius: 100%;
-    opacity: 1;
-    display: block;
+    background: url(assets/button.png);
 }
 
 .custom .bumper.pressed {
@@ -83,10 +77,7 @@
 .custom .button {
     width: 74px;
     height: 74px;
-    background: #000000;
-    border-radius: 100%;
-    opacity: 1;
-    display: block;
+    background: url(assets/button.png);
     position: absolute;
 }
 
