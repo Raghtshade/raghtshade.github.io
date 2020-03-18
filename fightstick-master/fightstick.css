@@ -24,7 +24,10 @@
 
 .custom .trigger-button.pressed {
     background-position-x: -75px;
-    animation-delay: 0.5s;
+        background-position-x: -75px;
+        background-position-x: -75px;
+        background-position-x: -75px;
+        background-position-x: -75px;
     background-position-x: -150px;
 }
 
@@ -55,7 +58,9 @@
 
 .custom .bumper.pressed {
     background-position-x: -75px;
-    animation-delay: .5s;
+        background-position-x: -75px;
+        background-position-x: -75px;
+        background-position-x: -75px;
     background-position-x: -150px;
 }
 
@@ -87,7 +92,9 @@
 
 .custom .button.pressed {
     background-position-x: -75px;
-    animation-delay: .5s;
+        background-position-x: -75px;
+        background-position-x: -75px;
+        background-position-x: -75px;
     background-position-x: -150px;
 }
 
