@@ -130,22 +130,19 @@
 
 .custom .fstick.up {
 top: 0px;
-    left: 37px;
+   background-position-x: +150px;
 }
 
 .custom .fstick.down {
-    bottom:0px;
-    left: 37px;
+   background-position-x: +300px;
 }
 
 .custom .fstick.left {
-    bottom:37px;
-    left: 0px;
+   background-position-x: +450px;
 }
 
 .custom .fstick.right {
-    bottom:37px;
-    right: 0px;
+   background-position-x: +600px;
 }
 
 .custom .fstick.up.right {
