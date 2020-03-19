@@ -104,23 +104,23 @@
 }
 
 .custom .a {
-    bottom: 0px;
-    left: 0px;
+	float: left;
+    float: bottom;
 }
 
 .custom .b {
+	float: right;
     bottom: 25px;
-    right: 0px;
 }
 
 .custom .x {
+	float: left;
     top: 25px;
-    left: 0px
 }
 
 .custom .y {
-    right: 0px;
-    top: 0px;
+	float: right;
+	float: top;
 }
 
 .custom .fstick {
