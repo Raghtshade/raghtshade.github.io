@@ -5,8 +5,8 @@
 }
 @keyframes butthaha {
     0% {background: url(assets/button1.svg);}
-    12% {background: url(assets/button2.svg);}
-    35% {background: url(assets/button3.svg);}
+    33% {background: url(assets/button2.svg);}
+    66% {background: url(assets/button3.svg);}
     100% {background: url(assets/button4.svg) center;}
 }
 .custom.disconnected { 
@@ -30,13 +30,13 @@
 
 .custom .trigger-button.pressed {
     animation-name: butthaha;
-    animation-duration: 1s;
+    animation-duration: 250ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 .custom .trigger-button.released {
     animation-name: butthaha;
-    animation-duration: 1s;
+    animation-duration: 250ms;
   animation-iteration-count: 1;
   animation-fill-mode: backwards;
   animation-direction: reverse;
@@ -71,13 +71,13 @@
 
 .custom .bumper.pressed {
     animation-name: butthaha;
-    animation-duration: 1s;
+    animation-duration: 250ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 .custom .bumper.released {
     animation-name: butthaha;
-    animation-duration: 1s;
+    animation-duration: 250ms;
   animation-iteration-count: 1;
   animation-fill-mode: backwards;
   animation-direction: reverse;
@@ -113,13 +113,13 @@
 
 .custom .button.pressed {
     animation-name: butthaha;
-    animation-duration: 1s;
+    animation-duration: 250ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 .custom .button.released {
     animation-name: butthaha;
-    animation-duration: 1s;
+    animation-duration: 250ms;
   animation-iteration-count: 1;
   animation-fill-mode: backwards;
   animation-direction: reverse;
