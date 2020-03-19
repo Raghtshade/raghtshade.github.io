@@ -1,4 +1,7 @@
 /*BEGIN Fight Stick Controller Styling*/
+:root{
+--butthaha-speed: 2s;
+}
 .controller.custom {
     height: 250px;
     width: 650px;
@@ -9,9 +12,7 @@
     45% {background: url(assets/button3.svg);}
     100% {background: url(assets/button4.svg) center;}
 }
-:root{
---butthaha-speed: 2s;
-}
+
 .custom.disconnected { 
 }
 .custom.disconnected div {
