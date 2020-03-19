@@ -9,10 +9,6 @@
     35% {background: url(assets/button3.svg);}
     100% {background: url(assets/button4.svg) center;}
 }
-@keyframes suckmystick {
-	0% {background: url(assets/stick1.svg}
-	100% {background: url(assets/stick2.svg}
-}
 .custom.disconnected { 
 }
 .custom.disconnected div {
@@ -143,67 +139,35 @@
 }
 
 .custom .fstick.up {
-   background-position-x: -250px;
-   animation-name: suckmystick;
-   animation-duration: 100ms;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+   background-position-x: -250px; 
 }
 
 .custom .fstick.down {
-   background-position-x: -500px;
-   animation-name: suckmystick;
-   animation-duration: 100ms;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+   background-position-x: -500px; 
 }
 
 .custom .fstick.left {
-   background-position-x: -750px;
-   animation-name: suckmystick;
-   animation-duration: 100ms;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+   background-position-x: -750px; 
 }
 
 .custom .fstick.right {
-   background-position-x: -1000px;
-   animation-name: suckmystick;
-   animation-duration: 100ms;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+   background-position-x: -1000px; 
 }
 
 .custom .fstick.up.right {
-    background-position-x: -1250px;
-   animation-name: suckmystick;
-   animation-duration: 100ms;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+    background-position-x: -1250px; 
 }
 
 .custom .fstick.up.left {
-    background-position-x: -1500px;
-   animation-name: suckmystick;
-   animation-duration: 100ms;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+    background-position-x: -1500px; 
 }
 
 .custom .fstick.down.right {
-    background-position-x: -1750px;
-   animation-name: suckmystick;
-   animation-duration: 100ms;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+    background-position-x: -1750px; 
 }
 
 .custom .fstick.down.left {
-    background-position-x: -2000px;
-   animation-name: suckmystick;
-   animation-duration: 100ms;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
+    background-position-x: -2000px; 
 }
 
 /*END Fight Stick Controller Styling*/
