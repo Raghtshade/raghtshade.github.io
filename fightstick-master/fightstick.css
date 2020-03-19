@@ -10,6 +10,7 @@
     100% {background: url(assets/button4.svg) center;}
 }
 @keyframes suckmystick {
+	0% {background-position-y: 0}
 	100% {background-position-y: -250}
 }
 .custom.disconnected { 
