@@ -132,11 +132,11 @@
 
 .custom .fstick {
     position: absolute;
-    width: 250px;
-    height: 250px;
+    width: 260px;
+    height: 260px;
 	border-radius: 100%;
-    top: 0px;
-    left: 0px;
+    top: -5px;
+    left: -5px;
     background: url(assets/stick2.svg);
 }
 
