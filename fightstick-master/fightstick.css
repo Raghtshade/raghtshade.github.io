@@ -5,7 +5,7 @@
 }
 @keyframes butthaha {
     0% {background: url(assets/button1.png);}
-    25% {background: url(assets/button2.png);}
+    12% {background: url(assets/button2.png);}
     75% {background: url(assets/button3.png);}
     100% {background: url(assets/button4.png) center;}
 }
@@ -30,7 +30,7 @@
 
 .custom .trigger-button.pressed {
     animation-name: butthaha;
-    animation-duration: 50ms;
+    animation-duration: 100ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -64,7 +64,7 @@
 
 .custom .bumper.pressed {
     animation-name: butthaha;
-    animation-duration: 50ms;
+    animation-duration: 100ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -99,7 +99,7 @@
 
 .custom .button.pressed {
     animation-name: butthaha;
-    animation-duration: 50ms;
+    animation-duration: 100ms;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
