@@ -6,7 +6,7 @@
 @keyframes butthaha {
     0% {background: url(assets/button1.png);}
     12% {background: url(assets/button2.png);}
-    75% {background: url(assets/button3.png);}
+    35% {background: url(assets/button3.png);}
     100% {background: url(assets/button4.png) center;}
 }
 .custom.disconnected { 
