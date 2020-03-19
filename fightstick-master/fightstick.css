@@ -1,6 +1,6 @@
 /*BEGIN Fight Stick Controller Styling*/
 :root{
---butthaha-speed: 169ms;
+--butthaha-speed: 190ms;
 }
 .controller.custom {
     height: 250px;
@@ -8,8 +8,8 @@
 }
 @keyframes butthaha {
     0% {background: url(assets/button1.svg);}
-    15% {background: url(assets/button2.svg);}
-    45% {background: url(assets/button3.svg);}
+    25% {background: url(assets/button2.svg);}
+    50% {background: url(assets/button3.svg);}
     100% {background: url(assets/button4.svg) center;}
 }
 
