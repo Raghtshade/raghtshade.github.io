@@ -9,7 +9,7 @@
     45% {background: url(assets/button3.svg);}
     100% {background: url(assets/button4.svg) center;}
 }
---butthaha-speed: 2s;
+butthaha-speed: 2s;
 .custom.disconnected { 
 }
 .custom.disconnected div {
@@ -31,7 +31,7 @@
 
 .custom .trigger-button.pressed {
     animation-name: butthaha;
-    animation-duration: butthaha-speed;
+    animation-duration: var(--butthaha-speed);
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -64,7 +64,7 @@
 
 .custom .bumper.pressed {
     animation-name: butthaha;
-    animation-duration: butthaha-speed;
+    animation-duration: var(--butthaha-speed);
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -99,7 +99,7 @@
 
 .custom .button.pressed {
     animation-name: butthaha;
-    animation-duration: butthaha-speed;
+    animation-duration: var(--butthaha-speed);
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
