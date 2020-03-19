@@ -139,36 +139,35 @@
 }
 
 .custom .fstick.up {  
-   background-position-x: -250px;  
+   background-position-x: -260px;  
 }
 
 .custom .fstick.down {   
-	background-position-y: -250px; 
-   background-position-x: -500px; 
+   background-position-x: -520px; 
 }
 
 .custom .fstick.left {  
-   background-position-x: -750px; 
+   background-position-x: -780px; 
 }
 
 .custom .fstick.right {  
-   background-position-x: -1000px; 
+   background-position-x: -1040px; 
 }
 
 .custom .fstick.up.right {
-    background-position-x: -1250px;   
+    background-position-x: -1300px;   
 }
 
 .custom .fstick.up.left { 
-    background-position-x: -1500px;  
+    background-position-x: -1560px;  
 }
 
 .custom .fstick.down.right {  
-    background-position-x: -1750px; 
+    background-position-x: -1820px; 
 }
 
 .custom .fstick.down.left {  
-    background-position-x: -2000px; 
+    background-position-x: -2080px; 
 }
 
 /*END Fight Stick Controller Styling*/
