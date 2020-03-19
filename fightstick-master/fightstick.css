@@ -105,22 +105,22 @@
 
 .custom .a {
 	float: left;
-    float: bottom;
+    float: top;
 }
 
 .custom .b {
 	float: right;
-    bottom: 25px;
+    top: 25px;
 }
 
 .custom .x {
 	float: left;
-    top: 25px;
+    bottom: 25px;
 }
 
 .custom .y {
 	float: right;
-	float: top;
+	float: bottom;
 }
 
 .custom .fstick {
