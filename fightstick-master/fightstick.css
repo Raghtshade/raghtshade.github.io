@@ -9,7 +9,9 @@
     45% {background: url(assets/button3.svg);}
     100% {background: url(assets/button4.svg) center;}
 }
-butthaha-speed: 2s;
+:root{
+--butthaha-speed: 2s;
+}
 .custom.disconnected { 
 }
 .custom.disconnected div {
