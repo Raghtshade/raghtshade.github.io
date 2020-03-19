@@ -138,8 +138,7 @@
     background: url(assets/stick2.svg);
 }
 
-.custom .fstick.up {
-   background-position-y: -250px; 
+.custom .fstick.up {  
    background-position-x: -250px;  
 }
 
@@ -148,33 +147,27 @@
    background-position-x: -500px; 
 }
 
-.custom .fstick.left {
-   background-position-y: -250px; 
+.custom .fstick.left {  
    background-position-x: -750px; 
 }
 
-.custom .fstick.right {
-   background-position-y: -250px; 
+.custom .fstick.right {  
    background-position-x: -1000px; 
 }
 
 .custom .fstick.up.right {
-    background-position-x: -1250px; 
-   background-position-y: -250px; 
+    background-position-x: -1250px;   
 }
 
-.custom .fstick.up.left {
-   background-position-y: -250px;
+.custom .fstick.up.left { 
     background-position-x: -1500px;  
 }
 
-.custom .fstick.down.right {
-   background-position-y: -250px; 
+.custom .fstick.down.right {  
     background-position-x: -1750px; 
 }
 
-.custom .fstick.down.left {
-   background-position-y: -250px; 
+.custom .fstick.down.left {  
     background-position-x: -2000px; 
 }
 
