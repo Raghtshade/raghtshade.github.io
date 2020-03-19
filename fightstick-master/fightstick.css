@@ -30,9 +30,16 @@
 
 .custom .trigger-button.pressed {
     animation-name: butthaha;
-    animation-duration: 175ms;
+    animation-duration: 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+}
+.custom .trigger-button.released {
+    animation-name: butthaha;
+    animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: backwards;
+  animation-direction: reverse;
 }
 
 .custom .trigger-button.left {
@@ -64,9 +71,16 @@
 
 .custom .bumper.pressed {
     animation-name: butthaha;
-    animation-duration: 175ms;
+    animation-duration: 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+}
+.custom .bumper.released {
+    animation-name: butthaha;
+    animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: backwards;
+  animation-direction: reverse;
 }
 
 .custom .bumper.left {
@@ -99,11 +113,17 @@
 
 .custom .button.pressed {
     animation-name: butthaha;
-    animation-duration: 175ms;
+    animation-duration: 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
-
+.custom .button.released {
+    animation-name: butthaha;
+    animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: backwards;
+  animation-direction: reverse;
+}
 .custom .a {
     position: absolute;
     bottom: 0px;
