@@ -211,6 +211,6 @@
        cy="13.229167"
        cx="13.229167"
        id="path858"
-       style="mix-blend-mode:overlay;fill:rgb(var(--butt-r),var(--butt-g),var(--butt-b));fill-opacity:var(--butt-a);stroke-width:0.264583" />
+       style="mix-blend-mode:overlay;fill:"rgb(var(--butt-r),var(--butt-g),var(--butt-b))";fill-opacity:"var(--butt-a)";stroke-width:0.264583" />
   </g>
 </svg>
