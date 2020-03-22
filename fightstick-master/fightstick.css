@@ -11,10 +11,10 @@
     width: 660px;
 }
 @keyframes butthaha {
-    0% {background: url("assets/button1.svg" param(--butt-r var(--butt-r))param(--butt-g var(--butt-g))param(--butt-b var(--butt-b))param(--butt-b var(--butt-b)));}
-    25% {background: url("assets/button2.svg" param(--butt-r var(--butt-r))param(--butt-g var(--butt-g))param(--butt-b var(--butt-b))param(--butt-b var(--butt-b)));}
-    50% {background: url("assets/button3.svg" param(--butt-r var(--butt-r))param(--butt-g var(--butt-g))param(--butt-b var(--butt-b))param(--butt-b var(--butt-b)));}
-    100% {background: url("assets/button4.svg" param(--butt-r var(--butt-r))param(--butt-g var(--butt-g))param(--butt-b var(--butt-b))param(--butt-b var(--butt-b)));}
+    0% {background: url("assets/button1.svg");}
+    25% {background: url("assets/button2.svg");}
+    50% {background: url("assets/button3.svg");}
+    100% {background: url("assets/button4.svg");}
 }
 
 .custom.disconnected { 
