@@ -1,20 +1,20 @@
 /*BEGIN Fight Stick Controller Styling*/
 :root{
 	--butthaha-speed: 190ms;
-	--butt-r: getQueryVariable("r");
-	--butt-g: getQueryVariable("g");
-	--butt-b: getQueryVariable("b");
-	--butt-a: getQueryVariable("a");
+	--r: (getQueryVariable("r"),0);
+	--g: (getQueryVariable("g"),0);
+	--b: (getQueryVariable("b"),0);
+	--a: (getQueryVariable("a"),0);
 }
 .controller.custom {
     height: 260px;
     width: 660px;
 }
 @keyframes butthaha {
-    0% {background: url(assets/button1.svg);}
-    25% {background: url(assets/button2.svg);}
-    50% {background: url(assets/button3.svg);}
-    100% {background: url(assets/button4.svg) center;}
+    0% {background: url("assets/button1.svg" param(--r var(--r))param(--g var(--g))param(--b var(--b))param(--b var(--b)));}
+    25% {background: url("assets/button2.svg" param(--r var(--r))param(--g var(--g))param(--b var(--b))param(--b var(--b)));}
+    50% {background: url("assets/button3.svg" param(--r var(--r))param(--g var(--g))param(--b var(--b))param(--b var(--b)));}
+    100% {background: url("assets/button4.svg" param(--r var(--r))param(--g var(--g))param(--b var(--b))param(--b var(--b)));}
 }
 
 .custom.disconnected { 
