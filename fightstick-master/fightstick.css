@@ -137,7 +137,7 @@
 	border-radius: 110%;
     top: 0px;
     left: 0px;
-    background: url(assets/stick2.svg);
+    background: url(assets/stick2.svg) no-repeat;
 }
 
 .custom .fstick.up {  
