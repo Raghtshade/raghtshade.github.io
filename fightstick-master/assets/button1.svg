@@ -8,158 +8,158 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="100"
-   height="100"
-   viewBox="0 0 26.458333 26.458334"
-   version="1.1"
-   id="svg8"
+   sodipodi:docname="button1.svg"
    inkscape:version="1.0beta2 (f3d5b5a, 2020-03-13)"
-   sodipodi:docname="button1.svg">
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 26.458333 26.458334"
+   height="100"
+   width="100">
   <defs
      id="defs2">
     <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4446">
+       id="linearGradient4446"
+       inkscape:collect="always">
       <stop
-         style="stop-color:#aeaeae;stop-opacity:1;"
+         id="stop4442"
          offset="0"
-         id="stop4442" />
+         style="stop-color:#aeaeae;stop-opacity:1;" />
       <stop
-         style="stop-color:#aeaeae;stop-opacity:0.4"
+         id="stop4444"
          offset="1"
-         id="stop4444" />
+         style="stop-color:#aeaeae;stop-opacity:0.4" />
     </linearGradient>
     <filter
-       inkscape:label="Bloom"
-       inkscape:menu="Bevels"
-       inkscape:menu-tooltip="Soft, cushion-like bevel with matte highlights"
-       style="color-interpolation-filters:sRGB;"
-       id="filter2161"
-       x="-0.015483871"
-       width="1.0309677"
+       height="1.0309677"
        y="-0.015483871"
-       height="1.0309677">
+       width="1.0309677"
+       x="-0.015483871"
+       id="filter2161"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:menu-tooltip="Soft, cushion-like bevel with matte highlights"
+       inkscape:menu="Bevels"
+       inkscape:label="Bloom">
       <feGaussianBlur
-         result="result1"
-         in="SourceAlpha"
+         id="feGaussianBlur2137"
          stdDeviation="0.17069893"
-         id="feGaussianBlur2137" />
+         in="SourceAlpha"
+         result="result1" />
       <feSpecularLighting
-         result="result0"
-         specularExponent="18.1"
-         specularConstant="2"
+         id="feSpecularLighting2141"
          surfaceScale="5"
-         id="feSpecularLighting2141">
+         specularConstant="2"
+         specularExponent="18.1"
+         result="result0">
         <feDistantLight
-           azimuth="225"
+           id="feDistantLight2139"
            elevation="24"
-           id="feDistantLight2139" />
+           azimuth="225" />
       </feSpecularLighting>
       <feComposite
-         result="result6"
-         operator="in"
+         id="feComposite2143"
          in2="SourceAlpha"
-         id="feComposite2143" />
+         operator="in"
+         result="result6" />
       <feMorphology
-         radius="5.7"
+         id="feMorphology2145"
          operator="dilate"
-         id="feMorphology2145" />
+         radius="5.7" />
       <feGaussianBlur
-         result="result11"
+         id="feGaussianBlur2147"
          stdDeviation="5.7"
-         id="feGaussianBlur2147" />
+         result="result11" />
       <feDiffuseLighting
-         surfaceScale="5"
-         result="result3"
-         diffuseConstant="2"
+         id="feDiffuseLighting2151"
          in="result1"
-         id="feDiffuseLighting2151">
+         diffuseConstant="2"
+         result="result3"
+         surfaceScale="5">
         <feDistantLight
-           elevation="25"
+           id="feDistantLight2149"
            azimuth="225"
-           id="feDistantLight2149" />
+           elevation="25" />
       </feDiffuseLighting>
       <feBlend
-         result="result7"
-         mode="multiply"
-         in="result3"
+         id="feBlend2153"
          in2="SourceGraphic"
-         id="feBlend2153" />
+         in="result3"
+         mode="multiply"
+         result="result7" />
       <feComposite
-         in="result7"
-         operator="in"
-         in2="SourceAlpha"
+         id="feComposite2155"
          result="result91"
-         id="feComposite2155" />
+         in2="SourceAlpha"
+         operator="in"
+         in="result7" />
       <feBlend
-         result="result9"
-         mode="lighten"
-         in="result6"
+         id="feBlend2157"
          in2="result91"
-         id="feBlend2157" />
+         in="result6"
+         mode="lighten"
+         result="result9" />
       <feComposite
-         in="result11"
+         id="feComposite2159"
          in2="result9"
-         id="feComposite2159" />
+         in="result11" />
     </filter>
     <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter4387"
-       x="-0.21290323"
-       width="1.4258065"
+       height="1.4258065"
        y="-0.21290323"
-       height="1.4258065">
+       width="1.4258065"
+       x="-0.21290323"
+       id="filter4387"
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always">
       <feGaussianBlur
-         inkscape:collect="always"
+         id="feGaussianBlur4389"
          stdDeviation="2.3471103"
-         id="feGaussianBlur4389" />
+         inkscape:collect="always" />
     </filter>
     <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4446"
-       id="radialGradient4448"
-       cx="13.229167"
-       cy="13.229167"
-       fx="13.229167"
-       fy="13.229167"
-       r="11.1125"
+       gradientTransform="matrix(0.95682863,0.10306945,-0.14698397,1.3645039,2.5155971,-6.1856068)"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.95682863,0.10306945,-0.14698397,1.3645039,2.5155971,-6.1856068)" />
+       r="11.1125"
+       fy="13.229167"
+       fx="13.229167"
+       cy="13.229167"
+       cx="13.229167"
+       id="radialGradient4448"
+       xlink:href="#linearGradient4446"
+       inkscape:collect="always" />
     <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter4454"
-       x="-0.73935484"
-       width="2.4787097"
+       height="2.4787097"
        y="-0.73935484"
-       height="2.4787097">
+       width="2.4787097"
+       x="-0.73935484"
+       id="filter4454"
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always">
       <feGaussianBlur
-         inkscape:collect="always"
+         id="feGaussianBlur4456"
          stdDeviation="6.846734"
-         id="feGaussianBlur4456" />
+         inkscape:collect="always" />
     </filter>
   </defs>
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="2.8037268"
-     inkscape:cx="41.667453"
-     inkscape:cy="10.987404"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     inkscape:document-rotation="0"
-     showgrid="false"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="1912"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
      units="px"
-     inkscape:window-width="958"
-     inkscape:window-height="488"
-     inkscape:window-x="-7"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="62.976073"
+     inkscape:cx="42.131118"
+     inkscape:zoom="5.6074536"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -168,49 +168,43 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     id="layer1"
      inkscape:groupmode="layer"
-     id="layer1">
-    <circle
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path4311"
-       cx="13.229167"
-       cy="13.229167"
-       r="13.229167" />
-    <circle
-       style="opacity:0.66129032;mix-blend-mode:hard-light;fill:#ffffff;fill-opacity:0.732258;fill-rule:evenodd;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4387)"
-       id="path4191"
-       cx="13.229167"
-       cy="13.229167"
-       r="13.229167" />
-    <ellipse
-       style="fill:#4a4a4a;stroke-width:0.264583;fill-opacity:1"
-       id="path330"
-       cx="13.229167"
-       cy="13.229167"
-       r="11.1125" />
-    <circle
-       style="opacity:0.66129;mix-blend-mode:darken;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path4391"
-       cx="13.229167"
-       cy="13.229167"
-       r="11.1125" />
-    <circle
-       r="11.1125"
-       cy="13.229167"
-       cx="13.229167"
-       id="path4391-1"
-       style="opacity:0.26451613;mix-blend-mode:lighten;fill:url(#radialGradient4448);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4454)" />
+     inkscape:label="Layer 1">
     <circle
        r="13.229167"
        cy="13.229167"
        cx="13.229167"
-       id="path858"
-       style="mix-blend-mode:overlay;fill:"rgb(var(--butt-r),var(--butt-g),var(--butt-b))";fill-opacity:"var(--butt-a)";stroke-width:0.264583" />
+       id="path4311"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       r="13.229167"
+       cy="13.229167"
+       cx="13.229167"
+       id="path4191"
+       style="opacity:0.66129032;mix-blend-mode:hard-light;fill:#ffffff;fill-opacity:0.732258;fill-rule:evenodd;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4387)" />
+    <ellipse
+       r="11.1125"
+       cy="13.229167"
+       cx="13.229167"
+       id="path330"
+       style="fill:#4a4a4a;stroke-width:0.264583;fill-opacity:1" />
+    <circle
+       r="11.1125"
+       cy="13.229167"
+       cx="13.229167"
+       id="path4391"
+       style="opacity:0.66129;mix-blend-mode:darken;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       style="opacity:0.26451613;mix-blend-mode:lighten;fill:url(#radialGradient4448);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4454)"
+       id="path4391-1"
+       cx="13.229167"
+       cy="13.229167"
+       r="11.1125" />
   </g>
 </svg>
