@@ -1,10 +1,6 @@
 /*BEGIN Fight Stick Controller Styling*/
 :root{
-	--butthaha-speed:(getQueryVariable("s"),150ms);
-	--butt-r: (getQueryVariable("r"),0);
-	--butt-g: (getQueryVariable("g"),0);
-	--butt-b: (getQueryVariable("b"),0);
-	--butt-a: (getQueryVariable("a"),0);
+	--butthaha-speed:(180ms);
 }
 .controller.custom {
     height: 260px;
