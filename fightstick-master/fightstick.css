@@ -1,6 +1,6 @@
 /*BEGIN Fight Stick Controller Styling*/
 :root{
-	--butthaha-speed:(180ms);
+	--butthaha-speed:(200ms);
 }
 .controller.custom {
     height: 260px;
