@@ -1,0 +1,179 @@
+/*BEGIN Fight Stick Controller Styling*/
+:root{
+	--butthaha-speed:(200ms);
+}
+.controller.custom {
+    height: 260px;
+    width: 660px;
+}
+@keyframes butthaha {
+    0% {background: url("assets/button1.svg");}
+    25% {background: url("assets/button2.svg");}
+    50% {background: url("assets/button3.svg");}
+    100% {background: url("assets/button4.svg");}
+}
+
+.custom.disconnected { 
+}
+.custom.disconnected div {
+}
+.custom .triggers {
+    width: 200px;
+    height: 125px;
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+}
+
+.custom .trigger-button {
+	--butt-r: getQueryVariable("r");
+	--butt-g: getQueryVariable("g");
+	--butt-b: getQueryVariable("b");
+	--butt-a: getQueryVariable("a");
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: url(assets/button1.svg);
+}
+
+.custom .trigger-button.pressed {
+    animation-name: butthaha;
+    animation-duration: var(--butthaha-speed);
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.custom .trigger-button.left {
+    position: absolute;
+    float: right;
+    bottom: 0px;
+    right: 0px;
+}
+
+.custom .trigger-button.right {
+    float: left;
+    bottom: 25px;
+}
+
+.custom .bumpers {
+    width: 200px;
+    height: 125px;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+}
+
+.custom .bumper {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: url(assets/button1.svg);
+}
+
+.custom .bumper.pressed {
+    animation-name: butthaha;
+    animation-duration: var(--butthaha-speed);
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.custom .bumper.left {
+    position: absolute;
+    top: 25px;
+    right: 0px;
+}
+
+.custom .bumper.right {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.custom .abxy {
+    width: 200px;
+    height: 225px;
+    position: absolute;
+    bottom: 30px;
+    right: 200px;
+}
+
+.custom .button {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+	position: absolute;
+    background: url(assets/button1.svg);
+}
+
+.custom .button.pressed {
+    animation-name: butthaha;
+    animation-duration: var(--butthaha-speed);
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.custom .a {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.custom .b {
+    position: absolute;
+    bottom: 25px;
+    right: 0px;
+}
+
+.custom .x {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+
+.custom .y {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.custom .fstick {
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    border-radius: 260px;
+    top: 0px;
+    left: 0px;
+    background: url(assets/stick.svg) no-repeat;
+}
+
+.custom .fstick.up {  
+   background-position-x: -260px;  
+}
+
+.custom .fstick.down {   
+   background-position-x: -520px; 
+}
+
+.custom .fstick.left {  
+   background-position-x: -780px; 
+}
+
+.custom .fstick.right {  
+   background-position-x: -1040px; 
+}
+
+.custom .fstick.up.right {
+    background-position-x: -1300px;   
+}
+
+.custom .fstick.up.left { 
+    background-position-x: -1560px;  
+}
+
+.custom .fstick.down.right {  
+    background-position-x: -1820px; 
+}
+
+.custom .fstick.down.left {  
+    background-position-x: -2080px; 
+}
+
+/*END Fight Stick Controller Styling*/
