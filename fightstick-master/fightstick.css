@@ -3,6 +3,10 @@
 	--butthaha-speed:(200ms);
 }
 .controller.custom {
+    position:absolute;
+    top:0px;
+    left:0px;
+    background: url(assets/base-neutral.svg);
     height: 260px;
     width: 660px;
 }
