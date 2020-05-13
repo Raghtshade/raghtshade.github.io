@@ -175,7 +175,9 @@ background-repeat:no-repeat;
 
 .custom .fstick.up {  
     animation-name: sticku;
-    animation-duration: var(--butthaha-speed);  
+    animation-duration: var(--butthaha-speed);  	
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .custom .fstick.down {   
