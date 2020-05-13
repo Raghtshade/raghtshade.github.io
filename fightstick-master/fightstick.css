@@ -4,6 +4,7 @@
 }
 .controller.custom {
     background: url(assets/base-neutral.svg);
+background-repeat:no-repeat;
     height: 260px;
     width: 660px;
 }
@@ -137,12 +138,13 @@
 
 .custom .fstick {
     position: absolute;
-    width: 260px;
-    height: 260px;
-    border-radius: 260px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+background-repeat:no-repeat;
     background:url(assets/balltop.svg);
-    top: 0px;
-    left: 0px;
+    top: 230px;
+    left: 230px;
 }
 
 .custom .fstick.up {  
