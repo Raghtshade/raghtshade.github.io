@@ -143,8 +143,8 @@ background-repeat:no-repeat;
     border-radius: 100%;
 background-repeat:no-repeat;
     background:url(assets/balltop.svg);
-    top: 130px;
-    left: 130px;
+    top: 80px;
+    left: 80px;
 }
 
 .custom .fstick.up {  
