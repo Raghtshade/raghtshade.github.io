@@ -3,9 +3,6 @@
 	--butthaha-speed:(200ms);
 }
 .controller.custom {
-    position:absolute;
-    top:0px;
-    left:0px;
     background: url(assets/base-neutral.svg);
     height: 260px;
     width: 660px;
@@ -143,6 +140,7 @@
     width: 260px;
     height: 260px;
     border-radius: 260px;
+    background:url(assets/balltop.svg);
     top: 0px;
     left: 0px;
 }
