@@ -138,13 +138,15 @@ background-repeat:no-repeat;
 
 .custom .fstick {
     position: absolute;
-    top: 30px;
-    left: 30px;
-    width: 100px;
-    height: 100px;
+    top: 15px;
+    left: 15px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
     background-repeat:no-repeat;
     background:url(assets/balltop.svg);
+	background-position-x:100px;
+	background-position-y:100px;
 
 }
 
