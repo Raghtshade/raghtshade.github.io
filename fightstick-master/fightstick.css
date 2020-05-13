@@ -16,7 +16,7 @@ background-repeat:no-repeat;
 }
 @keyframes sticku {
 	0% {background-position: center !important;}
-	50% {background-position:top;}
+	100% {background-position:top;}
 }
 @keyframes stickur {
 	100% {background-position-x: ; background-position-y: ;}
