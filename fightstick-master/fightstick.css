@@ -14,7 +14,30 @@ background-repeat:no-repeat;
     50% {background: url("assets/button3.svg");}
     100% {background: url("assets/button4.svg");}
 }
-
+@keyframes sticku {
+	100% {background-position-x:80; background-position-y:30;}
+}
+@keyframes stickur {
+	100% {background-position-x: ; background-position-y: ;}
+}
+@keyframes stickr {
+	100% {background-position-x: ; background-position-y: ;}
+}
+@keyframes stickdr {
+	100% {background-position-x: ; background-position-y: ;}
+}
+@keyframes stickd {
+	100% {background-position-x: ; background-position-y: ;}
+}
+@keyframes stickdl {
+	100% {background-position-x: ; background-position-y: ;}
+}
+@keyframes stickl {
+	100% {background-position-x: ; background-position-y: ;}
+}
+@keyframes stickul {
+	100% {background-position-x: ; background-position-y: ;}
+}
 .custom.disconnected { 
 }
 .custom.disconnected div {
@@ -151,7 +174,8 @@ background-repeat:no-repeat;
 }
 
 .custom .fstick.up {  
-   background-position-x: -260px;  
+    animation-name: sticku;
+    animation-duration: var(--butthaha-speed);  
 }
 
 .custom .fstick.down {   
