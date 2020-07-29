@@ -42,13 +42,13 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
-.custom .trigger-button.left {
+/*.custom .trigger-button.left {
     position: absolute;
     float: right;
     bottom: 0px;
     right: 0px;
 }
-
+*/
 .custom .trigger-button.right {
     float: left;
     bottom: 25px;
@@ -76,12 +76,12 @@
   animation-fill-mode: forwards;
 }
 
-.custom .bumper.left {
+/*.custom .bumper.left {
     position: absolute;
     top: 25px;
     right: 0px;
 }
-
+*/
 .custom .bumper.right {
     position: absolute;
     left: 0px;
