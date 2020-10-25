@@ -44,8 +44,8 @@
 }
 .custom .trigger-button.left {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom: -5px;
+    right: 2px;
 }
 
 .custom .trigger-button.right {
@@ -77,8 +77,8 @@
 
 .custom .bumper.left {
     position: absolute;
-    top: 30px;
-    right: 0px;
+    top: 35px;
+    right: 2px;
 }
 
 .custom .bumper.right {
