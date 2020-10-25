@@ -51,7 +51,7 @@
 */
 .custom .trigger-button.right {
     float: left;
-    bottom: 25px;
+    bottom: 27px;
 }
 
 .custom .bumpers {
@@ -85,7 +85,7 @@
 .custom .bumper.right {
     position: absolute;
     left: 0px;
-    top: 0px;
+    top: -2px;
 }
 
 .custom .abxy {
