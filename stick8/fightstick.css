@@ -118,7 +118,7 @@
 .custom .b {
     position: absolute;
     bottom: 25px;
-    right: 5px;
+    right: 3px;
 }
 
 .custom .x {
@@ -130,7 +130,7 @@
 .custom .y {
     position: absolute;
     top: 0px;
-    right: 5px;
+    right: 3px;
 }
 
 .custom .fstick {
