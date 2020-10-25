@@ -4,7 +4,7 @@
 }
 .controller.custom {
     height: 260px;
-    width: 660px;
+    width: 635px;
 }
 @keyframes butthaha {
     0% {background: url("../assets/button1.svg");}
@@ -17,12 +17,13 @@
 }
 .custom.disconnected div {
 }
+/*
 .custom .triggers {
-    width: 200px;
-    height: 125px;
+    width: 195px;
+    height: 130px;
     position: absolute;
     right: 0px;
-    bottom: 30px;
+    bottom: 10px;
 }
 
 .custom .trigger-button {
@@ -42,25 +43,24 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
-/*
+
 .custom .trigger-button.left {
     position: absolute;
-    float: right;
-    bottom: 0px;
-    right: 0px;
+    bottom: -5px;
+    right: 2px;
 }
 
 .custom .trigger-button.right {
     float: left;
     bottom: 25px;
 }
-*/
+
 .custom .bumpers {
-    width: 200px;
-    height: 125px;
+    width: 195px;
+    height: 130px;
     position: absolute;
     right: 0px;
-    top: 5px;
+    top: 20px;
 }
 
 .custom .bumper {
@@ -77,11 +77,10 @@
   animation-fill-mode: forwards;
 }
 
-/*
 .custom .bumper.left {
     position: absolute;
-    top: 25px;
-    right: 0px;
+    top: 35px;
+    right: 2px;
 }
 
 .custom .bumper.right {
@@ -95,7 +94,7 @@
     height: 225px;
     position: absolute;
     bottom: 30px;
-    right: 200px;
+    right: 190px;
 }
 
 .custom .button {
@@ -121,7 +120,7 @@
 .custom .b {
     position: absolute;
     bottom: 25px;
-    right: 0px;
+    right: 3px;
 }
 
 .custom .x {
@@ -133,7 +132,7 @@
 .custom .y {
     position: absolute;
     top: 0px;
-    right: 0px;
+    right: 3px;
 }
 
 .custom .fstick {
