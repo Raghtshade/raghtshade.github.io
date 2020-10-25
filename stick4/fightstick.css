@@ -43,7 +43,6 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
-
 .custom .trigger-button.left {
     position: absolute;
     bottom: -5px;
