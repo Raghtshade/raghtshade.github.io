@@ -4,7 +4,7 @@
 }
 .controller.custom {
     height: 260px;
-    width: 645px;
+    width: 635px;
 }
 @keyframes butthaha {
     0% {background: url("../assets/button1.svg");}
@@ -92,7 +92,7 @@
     height: 225px;
     position: absolute;
     bottom: 30px;
-    right: 200px;
+    right: 190px;
 }
 
 .custom .button {
