@@ -134,10 +134,9 @@
     position: absolute;
     width: 260px;
     height: 260px;
-    border-radius: 260px;
-    top: 0px;
+    bottom: 12px;
     left: 0px;
-    background: url(../assets/teste%20bola.png) no-repeat;
+    background: url(../assets/stick_8bit.png) no-repeat;
 }
 
 .custom .fstick.up {  

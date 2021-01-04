@@ -3,14 +3,14 @@
 	--butthaha-speed:(200ms);
 }
 .controller.custom {
-    height: 260px;
+    height: 300px;
     width: 635px;
 }
 @keyframes butthaha {
-    0% {background: url("../assets/button1.svg");}
-    25% {background: url("../assets/button2.svg");}
-    50% {background: url("../assets/button3.svg");}
-    100% {background: url("../assets/button4.svg");}
+    0% {background: url("../assets/btn_8bit0.png");}
+    25% {background: url("../assets/btn_8bit1.png");}
+    50% {background: url("../assets/btn_8bit1.png");}
+    100% {background: url("../assets/btn_8bit1.png");}
 }
 
 .custom.disconnected { 
@@ -32,8 +32,7 @@
 	--butt-a: getQueryVariable("a");
     width: 100px;
     height: 100px;
-    border-radius: 100%;
-    background: url(../assets/button1.svg);
+    background: url(../assets/btn_8bit0.png);
 }
 
 .custom .trigger-button.pressed {
@@ -58,14 +57,13 @@
     height: 130px;
     position: absolute;
     right: 0px;
-    top: 20px;
+    top: 100px;
 }
 
 .custom .bumper {
     width: 100px;
     height: 100px;
-    border-radius: 100%;
-    background: url(../assets/button1.svg);
+    background: url(../assets/btn_8bit0.png);
 }
 
 .custom .bumper.pressed {
@@ -98,9 +96,8 @@
 .custom .button {
     width: 100px;
     height: 100px;
-    border-radius: 100%;
 	position: absolute;
-    background: url(../assets/button1.svg);
+    background: url(../assets/btn_8bit0.png);
 }
 
 .custom .button.pressed {
@@ -123,13 +120,13 @@
 
 .custom .x {
     position: absolute;
-    top: 25px;
+    top: 65px;
     left: 0px;
 }
 
 .custom .y {
     position: absolute;
-    top: 0px;
+    top: 40px;
     right: 3px;
 }
 
@@ -137,10 +134,9 @@
     position: absolute;
     width: 260px;
     height: 260px;
-    border-radius: 260px;
-    top: 0px;
+    bottom: 52px;
     left: 0px;
-    background: url(../assets/teste%20bola.png) no-repeat;
+    background: url(../assets/stick_8bit.png) no-repeat;
 }
 
 .custom .fstick.up {  
