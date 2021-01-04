@@ -32,7 +32,6 @@
 	--butt-a: getQueryVariable("a");
     width: 100px;
     height: 100px;
-    border-radius: 100%;
     background: url(../assets/button1.svg);
 }
 
@@ -64,7 +63,6 @@
 .custom .bumper {
     width: 100px;
     height: 100px;
-    border-radius: 100%;
     background: url(../assets/button1.svg);
 }
 
@@ -98,7 +96,6 @@
 .custom .button {
     width: 100px;
     height: 100px;
-    border-radius: 100%;
 	position: absolute;
     background: url(../assets/button1.svg);
 }
