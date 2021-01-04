@@ -57,7 +57,7 @@
     height: 130px;
     position: absolute;
     right: 0px;
-    top: 60px;
+    top: 100px;
 }
 
 .custom .bumper {
@@ -134,7 +134,7 @@
     position: absolute;
     width: 260px;
     height: 260px;
-    bottom: 12px;
+    bottom: 52px;
     left: 0px;
     background: url(../assets/stick_8bit.png) no-repeat;
 }
