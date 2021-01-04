@@ -57,7 +57,7 @@
     height: 130px;
     position: absolute;
     right: 0px;
-    top: 30px;
+    top: 60px;
 }
 
 .custom .bumper {
@@ -120,13 +120,13 @@
 
 .custom .x {
     position: absolute;
-    top: 25px;
+    top: 65px;
     left: 0px;
 }
 
 .custom .y {
     position: absolute;
-    top: 0px;
+    top: 40px;
     right: 3px;
 }
 
